@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" 
+  href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <title>Đăng ký</title>
+    <!-- Font Icon -->
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style_regiser.css" />
+  </head>
+  <body>
+    <div class="em">
+    <div class="container">
+      <header>
+          <div class="MenuLogo">
+              <img src="image/logo.png">
+          </div>
+          <div class="heared">
+              <div class="btn1">
+                  <li><a href=""><i class="fas fa-calendar-day"></i>ĐĂNG KÝ TIÊM</a></li>
+              </div>
+              <div class="btn2">
+                  <a href="login.html"><button>Đăng nhập</button></a>
+                  <a href=""><button>Đăng ký</button></a>
+              </div>
+          </div>
+      </header>
+     </div>
+       <!-----Menu------>
+     <div class="wrapper" >
+      
+          <nav class="content">
+              <ul class="main-menu">
+                  <li class="menu" ><a href="">TRANG CHỦ</a></li>
+                  <li class="menu"><a href="">GIỚI THIỆU</a></li>
+                  <li class="menu"><a href="">TIÊM CHỦNG CHO TRẺ EM</a>
+                      <ul class="submenu">
+                          <li><a href="">Lịch tiêm chủng cho trẻ em</a></li>
+                          <li><a href="">Các loại vắc xin cho trẻ em</a></li>
+                      </ul>
+                  </li>
+                  <li class="menu"><a href="">TIÊM CHỦNG CHO NGƯỜI LỚN</a>
+                      <ul class="submenu">
+                          <li><a href="">Lịch tiêm chủng cho người lớn</a></li>
+                          <li><a href="vaccineNL.html">Các loại vắc xin cho người lớn</a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </nav>
+     
+      </div>
+    </div>
+    <input type="hidden" id="status">
+    <div class="main">
+      <!-- Sign up form -->
+      <section class="signup">
+        <div class="container">
+          <div class="signup-content">
+            <div class="signup-form">
+              <h2 class="form-title">ĐĂNG KÝ</h2>
+
+              <form
+                method="post"
+                action="res"
+                class="register-form"
+                id="register-form"
+              >
+                <div class="form-group">
+                  <label class="label1" for="name">
+                    * Họ Và Tên
+                    <i class="zmdi zmdi-account material-icons-name"></i
+                  ></label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder=" "
+                    class="input_1"
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="label1" for="email"
+                    >* Email<i class="zmdi zmdi-email"></i
+                  ></label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder=" "
+                    class="input_1"
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="label1" for="pass"
+                    >* Mật Khẩu<i class="zmdi zmdi-lock"></i
+                  ></label>
+                  <input
+                    type="password"
+                    name="pass"
+                    id="pass"
+                    placeholder=""
+                    class="input_1"
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="label1" for="re-pass"
+                    >* Xác Nhận Mật Khẩu<i class="zmdi zmdi-lock-outline"></i
+                  ></label>
+                  <input
+                    type="password"
+                    name="re_pass"
+                    id="re_pass"
+                    placeholder=" "
+                    class="input_1"
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="label1" for="contact"
+                    >* Số Điện Thoại<i class="zmdi zmdi-lock-outline"></i
+                  ></label>
+                  <input
+                    type="text"
+                    name="contact"
+                    id="contact"
+                    placeholder=" "
+                    class="input_1"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="checkbox"
+                    name="agree-term"
+                    id="agree-term"
+                    class="agree-term input_2"
+                  />
+                  <label for="agree-term" class="label-agree-term"
+                    ><span><span></span></span>Tôi đồng ý với điều khoản dịch vụ
+                    <a href="#" class="term-service"></a
+                  ></label>
+                </div>
+                <div class="form-group form-button">
+                  <div class="o2">
+                    <label class="login_input"> ĐĂNG KÝ NGAY </label>
+                    <input
+                      type="submit"
+                      name="signup"
+                      id="signup"
+                      class="form-submit input_3"
+                      value="  "
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="signup-image">
+              <a href="login.html" class="signup-image-link"
+                >Tôi đã có tài khoản
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container-footer">
+      <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="footer-col">
+                <h4>CÔNG TY VẮC XIN</h4>
+                <ul>
+                  <li>
+                    Giấy chứng nhận ĐKKD số 0123456789 do sở Kế hoạch và Đầu tư
+                    cấp ngày 01/01/2022
+                  </li>
+                  <li>
+                    Địa chỉ: 180 Hoàng Diệu, P. 10, Q.Thủ Đức,Tp.
+                    Hồ Chí Minh
+                  </li>
+                  <li>Mail: cskh@46.vn</li>
+                  <li>Mail: hangtt3@46.vn</li>
+                  <li>Bản quyền © 2022 thuộc về CÔNG TY VẮC XIN</li>
+                </ul>
+              </div>
+    
+              <div class="footer-col2">
+                <h4>Hotline : 0123456789</h4>
+                <h5>
+                  Thời gian làm việc từ thứ 2 đến chủ nhật 8h - 17h (Không nghỉ
+                  trưa)
+                </h5>
+                <div class="social-links">
+                  <a href="#"><img src="image/img2 (2).png" alt="" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+  </div>
+
+  </body>
+      <!-- JS -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="js/main.js"></script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <link rel="stylesheet" href="alert/dist/sweetalert.css" />
+      <script type="text/javascript">
+        var status = document.getElementById("status").value;
+        if (status == "success") {
+          swal("Xin Chúc Mừng", "Đã tạo tài khoản thành công", "success");
+        }
+      </script>
+      <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+      <script>
+        $(document).ready(function(){
+          $(window).scroll(function(){
+            if($(this).scrollTop()){
+              $(".wrapper").addClass('sticky')
+            }else{
+              $(".wrapper").addClass('sticky')
+            }
+          })
+        })
+      </script>
+</html>
+ 

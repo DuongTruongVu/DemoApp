@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0 0 0;
+    box-sizing: border-box;
+  }
+  .em{
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  .container{
+    background: white;
+   
+  }
+  .container header{
+     display: flex;
+    max-width: 1170px;
+    margin: auto;
+  
+  }
+  .container header .MenuLogo{
+     width: 300px;
+  }
+  .container header .MenuLogo img{
+    width: 80px;
+    height: 70px;
+    
+  }
+  .container header .heared{
+     width: 1050px;
+     display: flex;
+     margin-left: 400px;
+  }
+  .container header .heared .btn1{
+     margin-top: 20px;
+     width: 350px;
+     display: flex;
+  }
+  .container header .heared .btn1 li{
+     list-style: none;
+     margin-left: 200px;
+  }
+  .container header .heared .btn1 li a{
+     color: blue;
+     text-decoration: none;
+     font-weight: 700;
+    
+  }
+  .container header .heared li a i{
+    margin-right: 5px;
+  }
+  .container header .heared .btn2{
+     margin-top: 15px;
+  }
+  .container header .heared .btn2 a{
+     text-decoration: none;
+  }
+  .container header .heared .btn2 a button{
+     background: #CCCCCC;
+     width: 100px;
+     height: 30px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+  }
+  .container header .heared .btn2 a button:hover{
+     background: #66FF00;
+  }
+  .wrapper{
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    width: 100%;
+    background: white;
+  }
+  .wrapper .sticky{
+    opacity: 0.9;
+    background: white;
+  }
+  .wrapper .content{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+  
+  }
+  .wrapper .content .main-menu{
+    display: flex;
+    list-style: none;
+    margin-left: 95px;
+    padding: 0;
+  }
+  .wrapper .content .main-menu li a{
+    color: black;
+    display: block;
+    padding: 20px 10px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .wrapper .content .main-menu ul.submenu{
+    position: absolute;
+    background-color: #078bff;
+    padding: 0px 0px;
+    list-style: none;
+    width: 250px;
+    height: 100px;
+    position:absolute;
+     z-index:10;
+    display: none;
+  }
+  .wrapper .content .main-menu ul.submenu a{
+    padding: 15px 8px;
+    border-bottom: 1px solid white;
+  }
+  .wrapper .content .main-menu ul.submenu li:hover{
+    background: blue;
+  }
+  .wrapper .content .main-menu li:hover ul.submenu{
+    display: block;
+  }
+  .wrapper .content .main-menu li.active{
+    background-color: blue;
+  }
+  .wrapper .content .main-menu li.active a{
+    color: white;
+    
+}
+  .wrapper .content .main-menu a:hover{
+    background-color: blue;
+    color: white;
+    display: block;
+  }
+ .wrap{
+    max-width: 1200px;
+    margin: auto;
+}
+.wrap .control{
+  max-width: 1170px;
+  margin: auto;
+  display: flex;
+}
+
+.wrap .control a{
+    
+    text-decoration: none;
+    font-size: 20px;
+    flex-direction: row;
+}
+.wrap .control h2{
+    margin-left: 10px;
+    font-size: 20px;
+    flex-direction: row;
+}
+.wrap .headline{
+   max-width: 1170px;
+    text-align: center;
+    
+}
+.wrap .headline h1{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#2A388F ;
+    display: block;
+}
+
+.wrap ul.products{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.wrap ul.products li{
+    flex-basis: 20%;
+    box-shadow: 0 0 3px #ccc;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.wrap ul.products li img{
+    width: 100%;
+    height: 220px;
+}
+.wrap ul.products li .product-info a{
+    display: block;
+    text-decoration: none;
+}
+.wrap ul.products li .product-info a.product-name{
+    text-align: center;
+    color: #078bff;
+}
+.container-footer{
+    line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+.container-footer .footer {
+    background: #2a388f;
+    padding: 70px 0;
+  }
+.container-footer .footer .container{
+    max-width: 1170px;
+    margin: auto;
+    background: #2a388f;
+}
+.container-footer .footer .container .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-footer .footer .container .row ul{
+    list-style: none;
+}
+.container-footer .footer .container .row .footer-col {
+    width: 50%;
+    padding: 0 10px;
+  }
+  .container-footer .footer .container .row .footer-col2 h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .container-footer .footer .container .row .footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .container-footer .footer .container .row .footer-col2 h5{
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+ 
+  .container-footer .footer .container .row .footer-col2 h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .container-footer .footer .container .row .footer-col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .container-footer .footer .container .row .footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .container-footer .footer .container .row .footer-col ul li {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffffff;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .container-footer .footer .container .row .footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  .container-footer .footer .container .row .footer-col .social-links a {
+    height: 40px;
+    width: 40px;
+  }
